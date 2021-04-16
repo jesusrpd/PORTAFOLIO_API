@@ -1,4 +1,5 @@
 import config from './config';
+import './database';
 import app from './app';
 
 //Inicializamos el servidor
