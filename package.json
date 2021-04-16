@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src --out-dir buildBack",
-    "start": "node backend/index.js",
+    "start": "node buildBack/index.js",
     "build:ui": "rm -rf build && cd ../jesus && npm run build --prod && cp -r build ../jesus_api",
     "deploy": "git push heroku master",
     "deploy:full": "npm run build:ui && npm run build && git add . && git commit -m uibuild && npm run deploy",
