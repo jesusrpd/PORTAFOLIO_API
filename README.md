@@ -1,5 +1,10 @@
 # PORTAFOLIO_API
 
+### `Como descargar el proyecto`
+
+1.- Descargar la parte del frontend echa con react `https://github.com/jesusrpd/Portafolio.git` ejecutar `npm run start` para inicializar la app.
+2.- Descargar este repositorio y ejecutar el comando `npm run dev` para arrancar la aplicación.
+
 ### `npm run build:ui`
 
 Genera una version en produccion de la app y la copia a la api para poder usarse como archivos estaticos al momento de acceder a la página
